@@ -7,7 +7,7 @@
 @font-face{font-family:"Ubuntu";font-weight:500;font-display:swap;src:url(sitio/fonts/ubuntu-latin-500-normal.woff2) format("woff2")}
 @font-face{font-family:"Cormorant Garamond";font-weight:700;font-display:swap;src:url(sitio/fonts/cormorant-garamond-latin-700-normal.woff2) format("woff2")}
 
-:root{--bg:#011C33;--bg2:#012A4A;--card:#023961;--line:rgba(240,184,8,.22);--ink:#F4F7FB;--mute:#B9CCE0;--acc:#F0B808;--accink:#011C33;--acc2:#FFD24D;--hero:radial-gradient(1200px 600px at 60% -10%,rgba(20,162,241,.28),transparent 64%),linear-gradient(180deg,#0A5A92,#004577 40%,#012A4A);--heroink:#FFFFFF;
+:root{--bg:#011C33;--bg2:#012A4A;--card:#023961;--line:rgba(240,184,8,.22);--ink:#F4F7FB;--mute:#B9CCE0;--acc:#F0B808;--accink:#011C33;--acc2:#FFD24D;--hero:radial-gradient(1200px 600px at 60% -10%,rgba(20,162,241,.28),transparent 64%),linear-gradient(180deg,#0A5A92,#004577 40%,#012A4A);--heroink:#FFFFFF;--herobtn:#011C33;
  --disp:"Cormorant Garamond",system-ui,sans-serif;--body:"Ubuntu",system-ui,sans-serif;--r:10px;--g:clamp(16px,4vw,48px)}
 *{box-sizing:border-box;margin:0}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--body);-webkit-font-smoothing:antialiased}
@@ -29,7 +29,7 @@ a{color:inherit}
 .b:hover{transform:translateY(-1px)}
 .b--acc{background:var(--acc);border-color:var(--acc);color:var(--accink)}
 .top .b--big{min-height:48px;padding:12px 22px;font-size:16px}
-.top .b--acc{background:var(--heroink);border-color:var(--heroink);color:var(--bg)}
+.top .b--acc{background:var(--heroink);border-color:var(--heroink);color:var(--herobtn)}
 .b:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
 section{padding:clamp(48px,7vw,88px) 0;border-top:1px solid var(--line)}
 section:nth-of-type(even){background:var(--bg2)}

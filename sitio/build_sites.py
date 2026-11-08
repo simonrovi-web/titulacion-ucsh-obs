@@ -11,7 +11,7 @@ P = {
    material='MATERIAL_ABASTIBLE.html', assets='/home/claude/abastible/hm/assets', logo='/home/claude/abastible-streaming/Logos/Abastible_logo_white.png',
    fonts=[('Ubuntu Sans', 'ubuntu-sans/files/ubuntu-sans-latin-400-normal.woff2', 400), ('Ubuntu Sans', 'ubuntu-sans/files/ubuntu-sans-latin-700-normal.woff2', 700), ('Ubuntu Sans', 'ubuntu-sans/files/ubuntu-sans-latin-800-normal.woff2', 800)],
    disp='"Ubuntu Sans"', body='"Ubuntu Sans"', dw=800, tr='-0.02em',
-   c=dict(bg='#06103A', bg2='#0B1A55', card='#0E1F63', line='rgba(255,255,255,.14)', ink='#F4F6FC', mute='#AEB7DA', acc='#FE5000', accink='#06103A', acc2='#FF7A33', hero='linear-gradient(150deg,#FE5000 0%,#F44C00 45%,#E04600 100%)', heroink='#06103A'),
+   c=dict(bg='#06103A', bg2='#0B1A55', card='#0E1F63', line='rgba(255,255,255,.14)', ink='#F4F6FC', mute='#AEB7DA', acc='#FE5000', accink='#06103A', acc2='#FF7A33', hero='linear-gradient(150deg,#FE5000 0%,#F44C00 45%,#E04600 100%)', heroink='#06103A', herobtn='#FFFFFF'),
    screens=[('Inicio', 'inicio', 'Inicio', 'Portada con cuenta regresiva.'), ('Orador', 'orador', 'Orador', 'Presentación de cada orador.'), ('Agenda', 'programa', 'Agenda', 'Programa del evento con el bloque actual.'), ('Pausa', 'pausa', 'Pausa', 'Volvemos en unos minutos.'), ('Final', 'final', 'Final', 'Cierre de la transmisión.')],
    overlays=[('Overlay_LowerThird', 'lt', 'Lower third', 'Nombre, cargo y empresa.'), ('Overlay_Tema', 'tema', 'Tema', 'El tema en pantalla, arriba a la izquierda.'), ('Overlay_Mensaje', 'mensaje', 'Mensaje inferior', 'Saludos y avisos.'), ('Overlay_Mosca', 'mosca', 'Mosca', 'Logo, EN VIVO y mensajes.'), ('Overlay_Replay', 'replay', 'Repetición', 'Marca para los replays.')],
    stingers=['Ola', 'Burbuja', 'Capsulas', 'Llama', 'Anillos', 'Mosaico'],
@@ -21,7 +21,7 @@ P = {
    material='MATERIAL_IMPERIAL.html', assets='/home/claude/imperial/src/mat_assets', logo='/home/claude/imperial/Logo_Imperial_web.png',
    fonts=[('Roboto', 'roboto/files/roboto-latin-400-normal.woff2', 400), ('Roboto', 'roboto/files/roboto-latin-500-normal.woff2', 500), ('Roboto Condensed', 'roboto-condensed/files/roboto-condensed-latin-900-normal.woff2', 900)],
    disp='"Roboto Condensed"', body='"Roboto"', dw=900, tr='-0.01em',
-   c=dict(bg='#03152B', bg2='#062447', card='#0A2F5E', line='rgba(255,255,255,.14)', ink='#F4F6FA', mute='#B9C3D2', acc='#C8102E', accink='#FFFFFF', acc2='#FF464B', hero='radial-gradient(1200px 600px at 70% -10%,rgba(255,255,255,.10),transparent 60%),linear-gradient(180deg,#063661,#03152B)', heroink='#FFFFFF'),
+   c=dict(bg='#03152B', bg2='#062447', card='#0A2F5E', line='rgba(255,255,255,.14)', ink='#F4F6FA', mute='#B9C3D2', acc='#C8102E', accink='#FFFFFF', acc2='#FF464B', hero='radial-gradient(1200px 600px at 70% -10%,rgba(255,255,255,.10),transparent 60%),linear-gradient(180deg,#063661,#03152B)', heroink='#FFFFFF', herobtn='#03152B'),
    screens=[('Inicio', 'inicio', 'Inicio', 'El sello del evento con cuenta regresiva.'), ('Sucursal', 'sucursal', 'Sucursal', 'Presenta la sucursal antes de su destacado.'), ('Destacado', 'destacado', 'Destacado', 'La revelación del trabajador destacado.'), ('Destacados', 'destacados', 'Destacados', 'Tablero de todas las sucursales.'), ('Pausa', 'pausa', 'Pausa', 'Volvemos en unos minutos.'), ('Final', 'final', 'Final', 'Cierre de la transmisión.')],
    overlays=[('Overlay_LowerThird', 'lt', 'Lower third', 'Nombre, cargo y sucursal.'), ('Overlay_Tema', 'tema', 'Sucursal en pantalla', 'La sucursal que se premia.'), ('Overlay_Mensaje', 'mensaje', 'Mensaje inferior', 'Saludos y avisos.'), ('Overlay_Mosca', 'mosca', 'Mosca', 'Logo, EN VIVO y mensajes.'), ('Overlay_Replay', 'replay', 'Repetición', 'Marca para los replays.')],
    stingers=['Telon', 'Destello', 'Franjas', 'Marco'],
@@ -31,7 +31,7 @@ P = {
    material='MATERIAL_UCSH.html', assets='/home/claude/ucsh/src/mat_assets', logo='/home/claude/ucsh/Logo_UCSH_blanco.png',
    fonts=[('Ubuntu', 'ubuntu/files/ubuntu-latin-400-normal.woff2', 400), ('Ubuntu', 'ubuntu/files/ubuntu-latin-500-normal.woff2', 500), ('Cormorant Garamond', 'cormorant-garamond/files/cormorant-garamond-latin-700-normal.woff2', 700)],
    disp='"Cormorant Garamond"', body='"Ubuntu"', dw=700, tr='0',
-   c=dict(bg='#011C33', bg2='#012A4A', card='#023961', line='rgba(240,184,8,.22)', ink='#F4F7FB', mute='#B9CCE0', acc='#F0B808', accink='#011C33', acc2='#FFD24D', hero='radial-gradient(1200px 600px at 60% -10%,rgba(20,162,241,.28),transparent 64%),linear-gradient(180deg,#0A5A92,#004577 40%,#012A4A)', heroink='#FFFFFF'),
+   c=dict(bg='#011C33', bg2='#012A4A', card='#023961', line='rgba(240,184,8,.22)', ink='#F4F7FB', mute='#B9CCE0', acc='#F0B808', accink='#011C33', acc2='#FFD24D', hero='radial-gradient(1200px 600px at 60% -10%,rgba(20,162,241,.28),transparent 64%),linear-gradient(180deg,#0A5A92,#004577 40%,#012A4A)', heroink='#FFFFFF', herobtn='#011C33'),
    screens=[('Inicio', 'inicio', 'Inicio', 'Ceremonia de Titulación con cuenta regresiva.'), ('Carrera', 'carrera', 'Carrera', 'Presenta cada carrera y cuántos se titulan.'), ('Nomina', 'nomina', 'Nómina', 'Los titulados de la carrera; el actual en oro.'), ('Pausa', 'pausa', 'Pausa', 'Volvemos en unos minutos y la carrera que viene.'), ('Final', 'final', 'Final', 'Cierre con felicitaciones.')],
    overlays=[('Overlay_LowerThird', 'lt', 'Lower third del titulado', 'Nombre, carrera y distinción.'), ('Overlay_Tema', 'tema', 'Carrera en pantalla', 'La carrera que se titula.'), ('Overlay_Mensaje', 'mensaje', 'Mensaje inferior', 'Felicitaciones y avisos.'), ('Overlay_Mosca', 'mosca', 'Mosca', 'Logo, EN VIVO y mensajes.'), ('Overlay_Replay', 'replay', 'Repetición', 'Marca para los replays.')],
    stingers=['Telon', 'Destello', 'Franjas', 'Marco'],
@@ -119,7 +119,7 @@ TEMPLATE = r'''<!doctype html>
 <link rel="icon" href="sitio/img/logo.png">
 <style>
 __FF__
-:root{--bg:__C_BG__;--bg2:__C_BG2__;--card:__C_CARD__;--line:__C_LINE__;--ink:__C_INK__;--mute:__C_MUTE__;--acc:__C_ACC__;--accink:__C_ACCINK__;--acc2:__C_ACC2__;--hero:__C_HERO__;--heroink:__C_HEROINK__;
+:root{--bg:__C_BG__;--bg2:__C_BG2__;--card:__C_CARD__;--line:__C_LINE__;--ink:__C_INK__;--mute:__C_MUTE__;--acc:__C_ACC__;--accink:__C_ACCINK__;--acc2:__C_ACC2__;--hero:__C_HERO__;--heroink:__C_HEROINK__;--herobtn:__C_HEROBTN__;
  --disp:__DISP__,system-ui,sans-serif;--body:__BODY__,system-ui,sans-serif;--r:10px;--g:clamp(16px,4vw,48px)}
 *{box-sizing:border-box;margin:0}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--body);-webkit-font-smoothing:antialiased}
@@ -141,7 +141,7 @@ a{color:inherit}
 .b:hover{transform:translateY(-1px)}
 .b--acc{background:var(--acc);border-color:var(--acc);color:var(--accink)}
 .top .b--big{min-height:48px;padding:12px 22px;font-size:16px}
-.top .b--acc{background:var(--heroink);border-color:var(--heroink);color:var(--bg)}
+.top .b--acc{background:var(--heroink);border-color:var(--heroink);color:var(--herobtn)}
 .b:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
 section{padding:clamp(48px,7vw,88px) 0;border-top:1px solid var(--line)}
 section:nth-of-type(even){background:var(--bg2)}
